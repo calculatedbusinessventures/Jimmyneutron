@@ -3,17 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Click Link Example</title>
+  <title>Dark Button Link Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .btn-link {
+      display: inline-block;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #1e1e1e, #333);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      border: 1px solid #444;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+      transition: all 0.3s ease;
+    }
+    .btn-link:hover {
+      background: linear-gradient(135deg, #333, #444);
+      transform: scale(1.08);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    }
+  </style>
 </head>
 <body>
 
-  <p>
-    <a href="https://www.revenuecpmgate.com/jquz5unjdb?key=5185d59e112d5705fecf76aa3f3ed089" 
-       target="_blank" 
-       rel="noopener noreferrer nofollow">
-       Click here
-    </a>
-  </p>
+  <a href="https://www.revenuecpmgate.com/jquz5unjdb?key=5185d59e112d5705fecf76aa3f3ed089" 
+     target="_blank" 
+     rel="noopener noreferrer nofollow" 
+     class="btn-link">
+     🚀 Click Here
+  </a>
 
 </body>
 </html>
